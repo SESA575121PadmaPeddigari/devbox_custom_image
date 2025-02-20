@@ -15,7 +15,7 @@ tasks:
       runAsUser: false
   - name: winget
     parameters:
-      package: Postman.Postman
+      package: Postman
       runAsUser: false  
   - name: winget
     parameters:
