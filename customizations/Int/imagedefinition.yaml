@@ -13,11 +13,11 @@ tasks:
     parameters:
       package: OpenJS.NodeJS
       runAsUser: false
-  - name: winget
+  - name: choco
     parameters:
       package: Postman
       runAsUser: false  
-  - name: winget
+  - name: choco
     parameters:
-      package: TortoiseHg.TortoiseHg
+      package: tortoisegit
       runAsUser: false
