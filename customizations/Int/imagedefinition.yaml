@@ -15,9 +15,9 @@ tasks:
       runAsUser: false
   - name: choco
     parameters:
-      package: Postman
+      package: postman --version=11.28.4
       runAsUser: false  
   - name: choco
     parameters:
-      package: tortoisegit
+      package: TortoiseGit --version=2.17.0.2      
       runAsUser: false
